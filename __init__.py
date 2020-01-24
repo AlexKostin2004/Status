@@ -11,4 +11,4 @@ while True:
 	nowtime = t.strftime("%H:%M") # текущее время
 	nowdate = t.strftime("%d.%m.%Y") # текущая дата
 	vk.method("status.set", {"text": nowtime + "  " + nowdate})
-	time.sleep(40) # погружаем скрипт в «сон» на 30 секунд
+	time.sleep(30) # погружаем скрипт в «сон» на 30 секунд
